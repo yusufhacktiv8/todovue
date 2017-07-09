@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="todoapp.css">
+    <script src="https://unpkg.com/vue"></script>
+
+  </head>
+  <body style="padding: 20px;">
+    <div class="" id="app">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Todo Apps</div>
+            <div class="panel-body">
+              <todo-list :todos="todos"></todo-list>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="todoitem.js"></script>
+    <script type="text/javascript" src="todolist.js"></script>
+    <script type="text/javascript" src="todoapp.js"></script>
+
+  </body>
+</html>
